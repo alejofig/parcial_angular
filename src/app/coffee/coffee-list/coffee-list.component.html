@@ -5,24 +5,24 @@
   <hr>
 
 
-    <table class="table" width="60%">
-      <thead class="table-dark">
-        <tr class="w-60">
-          <th scope="col">#</th>
-          <th scope="col">Nombre</th>
-          <th scope="col">Tipo</th>
-          <th scope="col">Región</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="w-60" *ngFor="let coffee of coffees; let i = index">
-          <th scope="row">{{i+1}}</th>
-          <td>{{coffee.nombre}}</td>
-          <td>{{coffee.tipo}}</td>
-          <td>{{coffee.region}}</td>
-        </tr>
-      </tbody>
-    </table>
+  <table class="table" style="width:60%">
+    <thead class="table-dark" >
+      <tr class="w-60">
+        <th scope="col">#</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Tipo</th>
+        <th scope="col">Región</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="w-60" *ngFor="let coffee of coffees; let i = index">
+        <th scope="row">{{i+1}}</th>
+        <td>{{coffee.nombre}}</td>
+        <td>{{coffee.tipo}}</td>
+        <td>{{coffee.region}}</td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -33,3 +33,10 @@
 
 </div>
 
+<footer class="text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="text-center p-3">
+    Contact us: +573102105253 - info@elaromamagico.com - @elaromamagico
+  </div>
+  <!-- Copyright -->
+</footer>
